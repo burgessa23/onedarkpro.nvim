@@ -45,7 +45,7 @@ function M.groups(theme)
         ["@method.call"] = { link = "@method" }, -- method calls
 
         ["@constructor"] = { fg = theme.palette.yellow }, -- constructor calls and definitions
-        ["@parameter"] = { fg = theme.palette.red, style = config.styles.parameters }, -- parameters of a function
+        ["@parameter"] = { fg = theme.palette.cyan, style = config.styles.parameters }, -- parameters of a function
 
         -- Keywords
         ["@keyword"] = { link = "Keyword" }, -- For keywords that don't fall in previous categories.
@@ -73,7 +73,7 @@ function M.groups(theme)
         ["@property"] = { fg = theme.palette.red }, -- similar to `@field`
 
         -- Identifiers
-        ["@variable"] = { fg = theme.palette.red, style = config.styles.variables }, -- various variable names
+        ["@variable"] = { fg = theme.palette.cyan, style = config.styles.variables }, -- various variable names
         ["@variable.builtin"] = { fg = theme.palette.yellow }, -- built-in variable names (e.g. `this`)
 
         ["@constant"] = { fg = theme.palette.orange, style = config.styles.constants }, -- constant identifiers
