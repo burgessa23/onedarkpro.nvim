@@ -12,7 +12,7 @@ function M.groups(theme)
         ["@keyword.return.javascript"] = { fg = theme.palette.purple, style = config.styles.keywords },
         ["@method.javascript"] = { fg = theme.palette.blue, style = config.styles.methods },
         ["@method.call.javascript"] = { link = "@method.javascript" },
-        ["@variable.javascript"] = { fg = theme.palette.red, style = config.styles.variables },
+        ["@variable.javascript"] = { fg = theme.palette.cyan, style = config.styles.variables },
         ["@variable.builtin.javascript"] = { fg = theme.palette.yellow, style = config.styles.variables },
 
         ["@odp.operator.fat_arrow.javascript"] = { fg = theme.palette.purple },
@@ -20,7 +20,7 @@ function M.groups(theme)
         ["@odp.expression.punctuation.bracket.javascript"] = { fg = theme.palette.cyan },
         ["@odp.function.punctuation.bracket.javascript"] = { fg = theme.palette.blue },
         ["@odp.punctuation.bracket.javascript"] = { fg = theme.palette.orange },
-        ["@odp.statement.punctuation.bracket.javascript"] = { fg = theme.palette.purple },
+        ["@odp.statement.punctuation.bracket.javascript"] = { fg = theme.palette.cyan },
 
         -- LSP Semantic Tokens
         ["@lsp.type.class.javascript"] = { fg = theme.palette.yellow },
