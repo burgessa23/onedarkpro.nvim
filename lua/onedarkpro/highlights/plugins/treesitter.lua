@@ -36,6 +36,33 @@ function M.groups(theme)
         ["@boolean"] = { link = "Boolean" }, -- boolean literals
         ["@number"] = { link = "Number" }, -- numeric literals
         ["@number.float"] = { link = "Float" }, -- floating-point number literals
+        ["@float"] = { link = "Float" }, -- floating-point number literals
+
+        -- Functions
+        ["@function"] = { fg = theme.palette.blue, style = config.styles.functions }, -- function definitions
+        ["@function.builtin"] = { fg = theme.palette.yellow }, -- built-in functions
+        ["@function.call"] = { link = "@function" }, -- function calls
+        ["@function.macro"] = { fg = theme.palette.blue }, -- preprocessor macros
+
+        ["@method"] = { fg = theme.palette.blue, style = config.styles.methods }, -- method definitions
+        ["@method.call"] = { link = "@method" }, -- method calls
+
+        ["@constructor"] = { fg = theme.palette.yellow }, -- constructor calls and definitions
+        ["@parameter"] = { fg = theme.palette.cyan, style = config.styles.parameters }, -- parameters of a function
+
+        -- Keywords
+        ["@keyword"] = { link = "Keyword" }, -- For keywords that don't fall in previous categories.
+        ["@keyword.function"] = { fg = theme.palette.purple, style = config.styles.functions }, -- For keywords used to define a function.
+        ["@keyword.operator"] = { fg = theme.palette.purple, style = config.styles.operators }, -- For operators that are English words, e.g. `and`, `as`, `or`.
+        ["@keyword.return"] = { link = "@keyword" }, -- for the `return` and `yield` keywords.
+
+        ["@conditional"] = { fg = theme.palette.purple, style = config.styles.conditionals }, -- keywords related to conditionals (e.g. `if` / `else`)
+        -- ["@conditional.ternary"] -- Ternary operator: condition ? 1 : 2
+        ["@repeat"] = { link = "Repeat" }, -- keywords related to loops (e.g. `for` / `while`)
+        -- ["@debug"] -- keywords related to debugging
+        ["@label"] = { link = "Label" }, -- GOTO and other labels (e.g. `label:` in C)
+        ["@include"] = { link = "Include" }, -- keywords for including modules (e.g. `import` / `from` in Python)
+        ["@exception"] = { link = "Exception" }, -- keywords related to exceptions (e.g. `throw` / `catch`)
 
         -- Types
         ["@type"] = { link = "Type" }, -- type or class definitions and annotations
@@ -51,6 +78,9 @@ function M.groups(theme)
         ["@function.builtin"] = { fg = theme.palette.yellow }, -- built-in functions
         ["@function.call"] = { link = "@function" }, -- function calls
         ["@function.macro"] = { fg = theme.palette.blue }, -- preprocessor macros
+        -- Identifiers
+        ["@variable"] = { fg = theme.palette.cyan, style = config.styles.variables }, -- various variable names
+        ["@variable.builtin"] = { fg = theme.palette.yellow }, -- built-in variable names (e.g. `this`)
 
         ["@function.method"] = { fg = theme.palette.blue, style = config.styles.methods }, -- method definitions
         ["@function.method.call"] = { link = "@function.method" }, -- method calls
