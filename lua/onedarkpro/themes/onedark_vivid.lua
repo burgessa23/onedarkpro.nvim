@@ -4,15 +4,15 @@ local meta = {
 }
 
 local default_colors = {
-    bg = "#282c34",
+    bg = "#1d1f21",
     fg = "#abb2bf",
-    red = "#ef596f",
-    orange = "#d19a66",
-    yellow = "#e5c07b",
+    red = "#c30771",
+    orange = "#f3e430",
+    yellow = "#a89c14",
     green = "#89ca78",
-    cyan = "#2bbac5",
-    blue = "#61afef",
-    purple = "#d55fde",
+    cyan = "#0abdc6",
+    blue = "#008ec4",
+    purple = "#d300c4",
     white = "#abb2bf",
     black = "#282c34",
     gray = "#5c6370",
