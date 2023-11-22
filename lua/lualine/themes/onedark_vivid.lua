@@ -10,8 +10,8 @@ onedarkpro.normal = {
 }
 
 onedarkpro.insert = {
-    a = { bg = colors.cyan, fg = colors.bg },
-    b = { bg = colors.fg_gutter, fg = colors.cyan },
+    a = { bg = colors.yellow, fg = colors.bg },
+    b = { bg = colors.fg_gutter, fg = colors.yellow },
 }
 
 onedarkpro.command = {
@@ -20,8 +20,8 @@ onedarkpro.command = {
 }
 
 onedarkpro.visual = {
-    a = { bg = colors.yellow, fg = colors.bg },
-    b = { bg = colors.fg_gutter, fg = colors.yellow },
+    a = { bg = colors.red, fg = colors.bg },
+    b = { bg = colors.fg_gutter, fg = colors.red },
 }
 
 onedarkpro.replace = {
