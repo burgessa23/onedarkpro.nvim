@@ -23,7 +23,7 @@ function M.groups(theme)
         ["@label"] = { link = "Label" }, -- GOTO and other labels (e.g. `label:` in C)
 
         -- Literals
-        ["@string"] = { fg = theme.palette.green, style = config.styles.strings }, -- string literals
+        ["@string"] = { fg = theme.palette.fg, style = config.styles.strings }, -- string literals
         ["@string.regex"] = { fg = theme.palette.green, style = config.styles.strings }, -- regular expressions
         ["@string.escape"] = { fg = theme.palette.cyan, style = config.styles.strings }, -- escape sequences
         ["@string.special"] = { link = "Special" }, -- other special strings (e.g. dates)
