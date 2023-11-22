@@ -23,7 +23,7 @@ function M.groups(theme)
         ["@punctuation.special"] = { fg = theme.palette.fg }, -- special symbols (e.g. `{}` in string interpolation)
 
         -- Literals
-        ["@string"] = { fg = theme.palette.green, style = config.styles.strings }, -- string literals
+        ["@string"] = { fg = theme.palette.fg, style = config.styles.strings }, -- string literals
         ["@string.regex"] = { fg = theme.palette.green, style = config.styles.strings }, -- regular expressions
         ["@string.escape"] = { fg = theme.palette.cyan, style = config.styles.strings }, -- escape sequences
         ["@string.special"] = { link = "Special" }, -- other special strings (e.g. dates)
