@@ -54,7 +54,7 @@ local function generate(colors)
         diff_text = colors.diff_text or "#005869",
 
         -- Lualine colors
-        bg_statusline = colors.bg_statusline or color.darken(colors.bg, 2.8),
+        bg_statusline = colors.bg_statusline or colors.bg,
         fg_gutter = colors.fg_gutter or color.lighten(colors.bg, 9.5),
         fg_gutter_inactive = colors.fg_gutter_inactive or colors.fg,
 
