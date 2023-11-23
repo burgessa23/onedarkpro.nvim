@@ -1,6 +1,6 @@
 local meta = {
     name = "onedark_vivid",
-    background = "transparent",
+    background = "dark",
 }
 
 local default_colors = {
