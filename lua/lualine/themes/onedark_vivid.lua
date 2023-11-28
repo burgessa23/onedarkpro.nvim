@@ -4,8 +4,8 @@ local config = require("onedarkpro.config").config
 local onedarkpro = {}
 
 onedarkpro.normal = {
-    a = { bg = colors.fg, fg = colors.bg },
-    b = { bg = colors.fg_gutter, fg = colors.fg },
+    a = { bg = colors.cyan, fg = colors.bg },
+    b = { bg = colors.fg_gutter, fg = colors.cyan },
     c = { bg = colors.bg_statusline, fg = colors.fg },
 }
 
