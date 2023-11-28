@@ -4,14 +4,14 @@ local config = require("onedarkpro.config").config
 local onedarkpro = {}
 
 onedarkpro.normal = {
-    a = { bg = colors.cyan, fg = colors.bg },
-    b = { bg = colors.fg_gutter, fg = colors.cyan },
+    a = { bg = colors.blue, fg = colors.bg },
+    b = { bg = colors.fg_gutter, fg = colors.blue },
     c = { bg = colors.bg_statusline, fg = colors.fg },
 }
 
 onedarkpro.insert = {
-    a = { bg = colors.yellow, fg = colors.bg },
-    b = { bg = colors.fg_gutter, fg = colors.yellow },
+    a = { bg = colors.thm_gld, fg = colors.bg },
+    b = { bg = colors.fg_gutter, fg = colors.thm_gld },
 }
 
 onedarkpro.command = {
