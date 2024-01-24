@@ -9,7 +9,7 @@ function M.groups(theme)
         ["@function.call.yaml"] = { fg = theme.palette.green },
         ["@punctuation.bracket.yaml"] = { fg = theme.palette.orange },
         ["@parameter.yaml"] = { fg = theme.palette.cyan },
-        ["@string.yaml"] = { fg = theme.palette.gray },
+        ["@string.yaml"] = { fg = theme.palette.fg },
     }
 end
 
