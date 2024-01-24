@@ -5,7 +5,7 @@ local M = {}
 ---@return table
 function M.groups(theme)
     return {
-        ["@field.yaml"] = { fg = theme.palette.red },
+        ["@field.yaml"] = { fg = theme.palette.blue },
         ["@function.call.yaml"] = { fg = theme.palette.green },
         ["@punctuation.bracket.yaml"] = { fg = theme.palette.orange },
         ["@parameter.yaml"] = { fg = theme.palette.cyan },
