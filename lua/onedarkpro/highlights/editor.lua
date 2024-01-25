@@ -70,7 +70,7 @@ function M.groups(theme)
         Pmenu = { bg = theme.generated.float_bg }, -- Popup menu: normal item.
         PmenuSel = {
             bg = (
-                theme.meta.light == false and color.lighten(theme.palette.bg, 3) or color.darken(theme.palette.bg, 8)
+                theme.meta.light == false and color.lighten(theme.palette.bg, 3) or color.darken(theme.palette.cyan, 8)
             ),
         }, -- Popup menu: selected item.
         PmenuSbar = {
