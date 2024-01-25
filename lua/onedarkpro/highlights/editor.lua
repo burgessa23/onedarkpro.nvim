@@ -74,7 +74,7 @@ function M.groups(theme)
                 8
             )),
             bg = (
-                theme.meta.light == false and color.lighten(theme.palette.yellow, 8) or color.darken(theme.palette.blue, 8)
+                theme.meta.light == false and color.lighten(theme.palette.bg, 3) or color.darken(theme.palette.bg, 8)
             ),
         }, -- Popup menu: selected item.
         PmenuSbar = {
