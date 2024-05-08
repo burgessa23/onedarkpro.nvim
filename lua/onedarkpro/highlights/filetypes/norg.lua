@@ -13,7 +13,7 @@ function M.groups(theme)
       [ "@NeorgH4" ] = { fg = theme.palette.thm_gld },
       [ "@NeorgH5" ] = { fg = theme.palette.red },
       [ "@NeorgH6" ] = { fg = theme.palette.blue },
-      [ "@undone" ] = { fg = theme.palette.blue },
+      [ "@undone" ] = { fg = theme.palette.comment },
       [ "@pending" ] = { fg = theme.palette.yellow },
       [ "@done" ] = { fg = theme.palette.supergreen },
       [ "@on_hold" ] = { fg = theme.palette.blue },
