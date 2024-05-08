@@ -9,6 +9,7 @@ local default_colors = {
     red = "#ff577d",
     orange = "#ff6e27",
     yellow = "#F9ED51",
+    supergreen = "#008000",
     green = "#6287f8",
     cyan = "#0abdc6",
     blue = "#008ec4",
