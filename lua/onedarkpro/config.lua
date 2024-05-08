@@ -34,6 +34,7 @@ local defaults = {
         json = true,
         lua = true,
         markdown = true,
+        norg = true,
         php = true,
         python = true,
         ruby = true,
