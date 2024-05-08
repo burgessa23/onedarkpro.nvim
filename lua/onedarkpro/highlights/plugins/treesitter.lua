@@ -69,6 +69,7 @@ function M.groups(theme)
 
         --["@storageclass"] -- visibility/life-time modifiers
         ["@attribute"] = { fg = theme.palette.purple }, --attribute annotations (e.g. Python decorators)
+        ["@attribute.foo"] = { fg = theme.palette.green }, --attribute annotations (e.g. Python decorators)
         ["@field"] = { fg = theme.palette.fg }, -- object and struct fields
         ["@property"] = { fg = theme.palette.red }, -- similar to `@field`
 
