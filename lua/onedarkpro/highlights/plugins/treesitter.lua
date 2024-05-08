@@ -71,6 +71,7 @@ function M.groups(theme)
         ["@type.qualifier"] = { link = "@type" }, -- type qualifiers (e.g. `const`)
 
         ["@attribute"] = { fg = theme.palette.purple }, --attribute annotations (e.g. Python decorators)
+        ["@field"] = { fg = theme.palette.fg }, -- object and struct fields
         ["@property"] = { fg = theme.palette.red }, -- similar to `@field`
 
         -- Functions
