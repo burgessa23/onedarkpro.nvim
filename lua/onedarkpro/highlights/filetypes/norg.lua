@@ -7,7 +7,7 @@ function M.groups(theme)
     local config = require("onedarkpro.config").config
 
     return {
-      [ "@attribute" ] = { fg = theme.palette.green },
+      [ "@attribute.norg" ] = { fg = theme.palette.green },
       [ "@neorg.headings.1.prefix.norg" ] = { fg = theme.palette.green },
       [ "@NeorgH2" ] = { fg = theme.palette.yellow },
       [ "@NeorgH3" ] = { fg = theme.palette.cyan },
