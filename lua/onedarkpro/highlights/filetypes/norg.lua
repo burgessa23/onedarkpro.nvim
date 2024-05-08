@@ -7,12 +7,12 @@ function M.groups(theme)
     local config = require("onedarkpro.config").config
 
     return {
-      heading1 = { fg = theme.palette.green },
-      heading2 = { fg = theme.palette.yellow },
-      heading3 = { fg = theme.palette.cyan },
-      heading4 = { fg = theme.palette.thm_gld },
-      heading5 = { fg = theme.palette.red },
-      heading6 = { fg = theme.palette.blue },
+      [ "NeorgH1" ] = { fg = theme.palette.green },
+      [ "NeorgH2" ] = { fg = theme.palette.yellow },
+      [ "NeorgH3" ] = { fg = theme.palette.cyan },
+      [ "NeorgH4" ] = { fg = theme.palette.thm_gld },
+      [ "NeorgH5" ] = { fg = theme.palette.red },
+      [ "NeorgH6" ] = { fg = theme.palette.blue },
     }
 end
 
