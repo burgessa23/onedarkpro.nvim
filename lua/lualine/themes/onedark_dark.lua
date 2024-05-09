@@ -10,7 +10,7 @@ onedarkpro.normal = {
 }
 
 onedarkpro.insert = {
-    a = { bg = colors.yellow, fg = colors.bg, gui = "bold, italic" },
+    a = { bg = colors.yellow, fg = colors.bg, gui = "bold" },
     b = { bg = colors.fg_gutter, fg = colors.yellow },
     b = { bg = colors.fg_gutter, fg = colors.yellow },
 }
