@@ -10,22 +10,26 @@ onedarkpro.normal = {
 }
 
 onedarkpro.insert = {
-    a = { bg = colors.yellow, fg = colors.bg },
+    a = { bg = colors.yellow, fg = colors.bg, gui = "bold" },
+    b = { bg = colors.fg_gutter, fg = colors.yellow },
     b = { bg = colors.fg_gutter, fg = colors.yellow },
 }
 
 onedarkpro.command = {
-    a = { bg = colors.purple, fg = colors.bg },
-    b = { bg = colors.fg_gutter, fg = colors.purple },
+    a = { bg = colors.orange, fg = colors.bg, gui = "bold" },
+    b = { bg = colors.fg_gutter, fg = colors.orange },
+    b = { bg = colors.fg_gutter, fg = colors.orange },
 }
 
 onedarkpro.visual = {
-    a = { bg = colors.red, fg = colors.bg },
+    a = { bg = colors.red, fg = colors.bg, gui = "bold" },
+    b = { bg = colors.fg_gutter, fg = colors.red },
     b = { bg = colors.fg_gutter, fg = colors.red },
 }
 
 onedarkpro.replace = {
-    a = { bg = colors.yellow, fg = colors.bg },
+    a = { bg = colors.yellow, fg = colors.bg, gui = "bold" },
+    b = { bg = colors.fg_gutter, fg = colors.yellow },
     b = { bg = colors.fg_gutter, fg = colors.yellow },
 }
 
