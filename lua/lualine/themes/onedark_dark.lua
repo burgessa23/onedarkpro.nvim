@@ -10,13 +10,13 @@ onedarkpro.normal = {
 }
 
 onedarkpro.insert = {
-    a = { bg = colors.yellow, fg = colors.bg, gui = "bold" },
+    a = { bg = colors.yellow, fg = colors.bg, gui = "bold, italic" },
     b = { bg = colors.fg_gutter, fg = colors.yellow },
     b = { bg = colors.fg_gutter, fg = colors.yellow },
 }
 
 onedarkpro.command = {
-    a = { bg = colors.orange, fg = colors.bg, gui = "bold" },
+    a = { bg = colors.orange, fg = colors.bg, gui = "italic" },
     b = { bg = colors.fg_gutter, fg = colors.orange },
     b = { bg = colors.fg_gutter, fg = colors.orange },
 }
