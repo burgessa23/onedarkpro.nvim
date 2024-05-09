@@ -20,6 +20,7 @@ local default_colors = {
     highlight = "#e2be7d",
     comment = "#7f848e",
     none = "NONE",
+    thm_gld="#A69D37",
 }
 
 ---Colors which are generated depending on the values in the palette
