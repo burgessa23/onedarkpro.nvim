@@ -4,21 +4,23 @@ local meta = {
 }
 
 local default_colors = {
-    bg = "#000000",
+    bg = "#1d1f21",
     fg = "#abb2bf",
-    red = "#ef596f",
-    orange = "#d19a66",
-    yellow = "#e5c07b",
-    green = "#89ca78",
-    cyan = "#2bbac5",
-    blue = "#61afef",
-    purple = "#d55fde",
+    red = "#ff577d",
+    orange = "#ff6e27",
+    yellow = "#F9ED51",
+    supergreen = "#008000",
+    green = "#6287f8",
+    cyan = "#0abdc6",
+    blue = "#008ec4",
+    purple = "#d300c4",
     white = "#abb2bf",
-    black = "#000000",
-    gray = "#434852",
+    black = "#282c34",
+    gray = "#5c6370",
     highlight = "#e2be7d",
     comment = "#7f848e",
     none = "NONE",
+    thm_gld="#A69D37",
 }
 
 ---Colors which are generated depending on the values in the palette

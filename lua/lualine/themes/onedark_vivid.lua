@@ -4,8 +4,8 @@ local config = require("onedarkpro.config").config
 local onedarkpro = {}
 
 onedarkpro.normal = {
-    a = { bg = colors.green, fg = colors.bg },
-    b = { bg = colors.fg_gutter, fg = colors.green },
+    a = { bg = colors.blue, fg = colors.bg },
+    b = { bg = colors.fg_gutter, fg = colors.blue },
     c = { bg = config.options.lualine_transparency and colors.none or colors.bg_statusline, fg = colors.fg },
 }
 
